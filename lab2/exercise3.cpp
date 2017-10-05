@@ -21,7 +21,7 @@ int main() {
 	total = r1+r2;
 	freq[total-2]++; 	
     }
-    for(int i =0; i< 12;i++){
+    for(int i =1; i< 12;i++){
 	cout << i+1 << ":" << (freq[i]/rolls)*100 << "%" << endl;
     }
 
